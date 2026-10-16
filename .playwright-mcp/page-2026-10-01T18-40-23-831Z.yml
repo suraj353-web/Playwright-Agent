@@ -1,0 +1,400 @@
+- generic [active] [ref=f7e1]:
+  - region "Marketing Ribbon Carousel" [ref=f7e6]:
+    - group "Carousel content" [ref=f7e7]:
+      - generic [ref=f7e8]:
+        - generic [ref=f7e14]:
+          - paragraph [ref=f7e19]: "HCL Regression Testing Multiple Ribbon 3 | Code: TEST66."
+          - paragraph
+        - paragraph [ref=f7e30]: "HCL Regression Testing Multiple Ribbon 2 | Code: FILTER55"
+        - paragraph [ref=f7e41]: "HCL Regression Testing Multiple Ribbon 1 | Code: TEST55."
+        - paragraph [ref=f7e52]: "1535951 Testing Multiple Ribbon with Link | Code: FLUID10."
+        - paragraph [ref=f7e63]: "1535951 Testing Multiple Ribbon with Link | Code: FILTER10."
+        - paragraph [ref=f7e74]: "1535951 Testing Multiple Ribbon with Link | Code: TEST55."
+        - paragraph [ref=f7e85]: 1852097 Marketing ribbon testing CATSAS
+        - paragraph [ref=f7e96]: "1926038 Testing Organization and User Ribbon Headless 3 | Code: FILTER55."
+        - paragraph [ref=f7e107]: "1926038 Testing Organization and User Ribbon Headless 2 | Code: FLUID55."
+        - paragraph [ref=f7e118]: "1926038 Testing Organization and User Ribbon Headless 1 | Code: TEST55."
+      - button "Previous" [ref=f7e119] [cursor=pointer]
+      - button "Next" [ref=f7e123] [cursor=pointer]
+  - banner [ref=f7e128]:
+    - generic [ref=f7e133]:
+      - generic [ref=f7e137]:
+        - link [ref=f7e138] [cursor=pointer]:
+          - /url: /en/catcorp
+          - img "Caterpillar" [ref=f7e139]
+        - generic [ref=f7e141]:
+          - button "Add Equipment" [ref=f7e150] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph: Add Equipment
+          - search [ref=f7e153]:
+            - generic [ref=f7e154]:
+              - generic [ref=f7e155]:
+                - combobox "Search" [ref=f7e156]
+                - generic [ref=f7e157]: Search
+              - button "search" [ref=f7e159] [cursor=pointer]
+        - navigation "Utility nav" [ref=f7e161]:
+          - menubar [ref=f7e162]:
+            - generic:
+              - menu [ref=f7e163]:
+                - menuitem [ref=f7e165] [cursor=pointer]:
+                  - paragraph [ref=f7e172]: Select Store
+              - generic [ref=f7e175]:
+                - menu "Sign in" [ref=f7e178]:
+                  - menuitem [ref=f7e180] [cursor=pointer]:
+                    - paragraph [ref=f7e189]: Sign in
+                - generic: Complete your tax details anytime right here.
+              - menu "Shopping Cart" [ref=f7e191]:
+                - menuitem "Shopping Cart" [ref=f7e193] [cursor=pointer]
+              - menu "Cat Applications" [ref=f7e202]:
+                - menuitem [ref=f7e204] [cursor=pointer]:
+                  - img "Cat Applications" [ref=f7e208]
+      - generic [ref=f7e215]:
+        - navigation "Primary nav" [ref=f7e217]:
+          - menu [ref=f7e218]:
+            - generic:
+              - menuitem "Shop" [ref=f7e220] [cursor=pointer]
+              - menu "Service Information System" [ref=f7e226]:
+                - menuitem "SIS" [ref=f7e227] [cursor=pointer]
+              - menuitem "Parts Diagram" [ref=f7e230] [cursor=pointer]
+        - navigation "Utility nav" [ref=f7e233]:
+          - menubar [ref=f7e234]:
+            - generic:
+              - menu [ref=f7e235]:
+                - menuitem "My Equipment" [ref=f7e237] [cursor=pointer]
+              - menu [ref=f7e243]:
+                - menuitem "Order History" [ref=f7e245] [cursor=pointer]
+              - menu "Help Center link opens a new tab" [ref=f7e251]:
+                - menuitem "Help Center" [ref=f7e253] [cursor=pointer]
+  - main [ref=f7e259]:
+    - generic [ref=f7e260]:
+      - img "hero-smart-banner-bg-image" [ref=f7e261]
+      - generic [ref=f7e265]:
+        - heading "Decrease Downtime" [level=2] [ref=f7e267]
+        - heading "Select your store to get the parts you need with speed." [level=6] [ref=f7e269]
+        - generic "Get Started" [ref=f7e271]:
+          - button "Get Started" [ref=f7e272] [cursor=pointer]
+      - list [ref=f7e277]:
+        - listitem [ref=f7e278]:
+          - heading "Local Pricing" [level=2] [ref=f7e283]
+        - listitem [ref=f7e284]:
+          - heading "In-Stock Parts" [level=2] [ref=f7e289]
+        - listitem [ref=f7e290]:
+          - heading "Pickup Options Near You" [level=2] [ref=f7e296]
+    - generic [ref=f7e297]:
+      - generic [ref=f7e301]:
+        - heading "We Have What You Need" [level=2] [ref=f7e304]
+        - generic [ref=f7e306]:
+          - region [ref=f7e308]:
+            - link "Filters" [ref=f7e311] [cursor=pointer]:
+              - /url: /en/catcorp/category/filters-and-fluids-filters
+              - generic [ref=f7e312]:
+                - img "Filters" [ref=f7e313]
+                - heading "Filters" [level=2] [ref=f7e316]
+          - region [ref=f7e323]:
+            - link "Fluids" [ref=f7e326] [cursor=pointer]:
+              - /url: /en/catcorp/category/filters-and-fluids-fluids
+              - generic [ref=f7e327]:
+                - img "Fluids" [ref=f7e328]
+                - heading "Fluids" [level=2] [ref=f7e331]
+          - region [ref=f7e338]:
+            - link "Workshop Supplies" [ref=f7e341] [cursor=pointer]:
+              - /url: /en/catcorp/category/workshop-supplies
+              - generic [ref=f7e342]:
+                - img "Workshop Supplies" [ref=f7e343]
+                - heading "Workshop Supplies" [level=2] [ref=f7e346]
+          - region [ref=f7e353]:
+            - link "Hardware" [ref=f7e356] [cursor=pointer]:
+              - /url: /en/catcorp/category/hw-seals-consumables-hardware
+              - generic [ref=f7e357]:
+                - img "Hardware" [ref=f7e358]
+                - heading "Hardware" [level=2] [ref=f7e361]
+          - region [ref=f7e368]:
+            - link "Seals, Gaskets, & O-Rings" [ref=f7e371] [cursor=pointer]:
+              - /url: /en/catcorp/category/hw-seals-consumables-seals-gaskets-o-rings
+              - generic [ref=f7e372]:
+                - img "Seals, Gaskets, & O-Rings" [ref=f7e373]
+                - heading "Seals, Gaskets, & O-Rings" [level=2] [ref=f7e376]
+          - region [ref=f7e383]:
+            - link "Batteries" [ref=f7e386] [cursor=pointer]:
+              - /url: /en/catcorp/category/electrical-electronics-batteries
+              - generic [ref=f7e387]:
+                - img "Batteries" [ref=f7e388]
+                - heading "Batteries" [level=2] [ref=f7e391]
+          - region [ref=f7e398]:
+            - link "Hoses & Tubes" [ref=f7e401] [cursor=pointer]:
+              - /url: /en/catcorp/category/hoses-tubes
+              - generic [ref=f7e402]:
+                - img "Hoses & Tubes" [ref=f7e403]
+                - heading "Hoses & Tubes" [level=2] [ref=f7e406]
+          - region [ref=f7e413]:
+            - link "Engine" [ref=f7e416] [cursor=pointer]:
+              - /url: /en/catcorp/category/engines
+              - generic [ref=f7e417]:
+                - img "Engine" [ref=f7e418]
+                - heading "Engine" [level=2] [ref=f7e421]
+      - generic [ref=f7e431]:
+        - generic [ref=f7e432]:
+          - heading "Need Help Finding Parts?" [level=2] [ref=f7e434]
+          - heading "Let's take a closer look." [level=2] [ref=f7e436]
+        - button "View Parts Diagram" [ref=f7e438] [cursor=pointer]
+      - generic [ref=f7e442]:
+        - heading "Looking for More?" [level=3] [ref=f7e444]
+        - generic [ref=f7e445]:
+          - link "Attachments Attachments" [ref=f7e446] [cursor=pointer]:
+            - /url: /en/catcorp/category/shop-by-attachment
+            - img "Attachments" [ref=f7e447]
+            - generic [ref=f7e448]: Attachments
+          - link "Cabs Cabs" [ref=f7e449] [cursor=pointer]:
+            - /url: /en/catcorp/category/cab
+            - img "Cabs" [ref=f7e450]
+            - generic [ref=f7e451]: Cabs
+          - link "Drivetrain Drivetrain" [ref=f7e452] [cursor=pointer]:
+            - /url: /en/catcorp/category/drive-train
+            - img "Drivetrain" [ref=f7e453]
+            - generic [ref=f7e454]: Drivetrain
+          - link "Electrical & Electronics Electrical & Electronics" [ref=f7e455] [cursor=pointer]:
+            - /url: /en/catcorp/category/electrical-electronics
+            - img "Electrical & Electronics" [ref=f7e456]
+            - generic [ref=f7e457]: Electrical & Electronics
+          - link "Equipment Upgrades Equipment Upgrades" [ref=f7e458] [cursor=pointer]:
+            - /url: /en/catcorp/category/equipment-upgrades
+            - img "Equipment Upgrades" [ref=f7e459]
+            - generic [ref=f7e460]: Equipment Upgrades
+          - link "Ground Engaging Tools Ground Engaging Tools" [ref=f7e461] [cursor=pointer]:
+            - /url: /en/catcorp/category/ground-engaging-tools-get
+            - img "Ground Engaging Tools" [ref=f7e462]
+            - generic [ref=f7e463]: Ground Engaging Tools
+          - link "Hardware, Seals, & Consumables Hardware, Seals, & Consumables" [ref=f7e464] [cursor=pointer]:
+            - /url: /en/catcorp/category/hw-seals-consumables
+            - img "Hardware, Seals, & Consumables" [ref=f7e465]
+            - generic [ref=f7e466]: Hardware, Seals, & Consumables
+          - link "Hydraulics Hydraulics" [ref=f7e467] [cursor=pointer]:
+            - /url: /en/catcorp/category/hydraulic
+            - img "Hydraulics" [ref=f7e468]
+            - generic [ref=f7e469]: Hydraulics
+          - link "Structures & Other Systems Components Structures & Other Systems Components" [ref=f7e470] [cursor=pointer]:
+            - /url: /en/catcorp/category/structures-oth-sys-components
+            - img "Structures & Other Systems Components" [ref=f7e471]
+            - generic [ref=f7e472]: Structures & Other Systems Components
+          - link "Undercarriage Undercarriage" [ref=f7e473] [cursor=pointer]:
+            - /url: /en/catcorp/category/uc
+            - img "Undercarriage" [ref=f7e474]
+            - generic [ref=f7e475]: Undercarriage
+          - link "Upgrade & Repair Kits Upgrade & Repair Kits" [ref=f7e476] [cursor=pointer]:
+            - /url: /en/catcorp/category/upgrade-repair-kits
+            - img "Upgrade & Repair Kits" [ref=f7e477]
+            - generic [ref=f7e478]: Upgrade & Repair Kits
+      - generic [ref=f7e481]:
+        - generic [ref=f7e482]:
+          - region [ref=f7e484]:
+            - img "Planned Maintenance Kits" [ref=f7e488]
+          - generic [ref=f7e489]:
+            - generic [ref=f7e490]:
+              - heading "Planned Maintenance Kits" [level=2] [ref=f7e492]
+              - heading "Everything required for a routine maintenance procedure in one convenient package." [level=2] [ref=f7e494]
+            - generic [ref=f7e496]:
+              - generic [ref=f7e498]:
+                - heading "Serial Number" [level=2] [ref=f7e500]
+                - heading "(Required)" [level=2] [ref=f7e503]
+              - search [ref=f7e522]:
+                - generic [ref=f7e524]:
+                  - combobox "Search" [ref=f7e525]
+                  - generic [ref=f7e526]: Search
+            - generic [ref=f7e527]:
+              - generic [ref=f7e528]:
+                - heading "Select a PM Kit" [level=2] [ref=f7e530]
+                - heading "(Required)" [level=2] [ref=f7e532]
+              - generic [ref=f7e538] [cursor=pointer]:
+                - generic [ref=f7e540]: Select a PM Kit
+                - combobox "Select a PM Kit" [ref=f7e541]
+            - button "Shop Now" [disabled] [ref=f7e545]
+        - region [ref=f7e547]:
+          - generic [ref=f7e550]:
+            - img "Account Creation" [ref=f7e553]
+            - generic [ref=f7e554]:
+              - heading "Owning, operating and maintaining made easier" [level=2] [ref=f7e557]
+              - list [ref=f7e559]:
+                - generic [ref=f7e560]:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading "Save your Fleet" [level=2]
+                - generic [ref=f7e561]:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading "Create Parts Lists" [level=2]
+                - generic [ref=f7e562]:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading "Get Personalized Service Insights" [level=2]
+              - button "Create Account" [ref=f7e566] [cursor=pointer]
+  - contentinfo [ref=f7e568]:
+    - generic [ref=f7e573]:
+      - generic [ref=f7e577]:
+        - generic [ref=f7e579]:
+          - generic "Find Parts" [ref=f7e580]:
+            - heading "Find Parts" [level=6] [ref=f7e581]
+          - list [ref=f7e582]:
+            - listitem [ref=f7e583]:
+              - link "Shop By Category" [ref=f7e584] [cursor=pointer]:
+                - /url: /en/catcorp/shop-all-categories
+            - listitem [ref=f7e585]:
+              - link "Parts Diagram" [ref=f7e586] [cursor=pointer]:
+                - /url: /en/catcorp/parts-diagram
+            - listitem [ref=f7e587]:
+              - button "SIS" [ref=f7e588] [cursor=pointer]
+            - listitem [ref=f7e589]:
+              - link "About Cat Parts" [ref=f7e590] [cursor=pointer]:
+                - /url: /en/catcorp/about
+            - listitem [ref=f7e591]:
+              - link "Site Map" [ref=f7e592] [cursor=pointer]:
+                - /url: /en/catcorp/site-map
+        - generic [ref=f7e594]:
+          - generic "Support" [ref=f7e595]:
+            - heading "Support" [level=6] [ref=f7e596]
+          - list [ref=f7e597]:
+            - listitem [ref=f7e598]:
+              - link "Contact Us" [ref=f7e599] [cursor=pointer]:
+                - /url: https://catcrm--crmiuat.sandbox.my.site.com/HelpCenter/s/contactsupport?language=en_US&geoloc=US&userstate=Loggedout&eSite=CATCorp
+            - listitem [ref=f7e600]:
+              - button "Find Your Dealer" [ref=f7e601] [cursor=pointer]
+            - listitem [ref=f7e602]:
+              - link "Help Center" [ref=f7e603] [cursor=pointer]:
+                - /url: https://catcrm--crmiuat.sandbox.my.site.com/HelpCenter/s?language=en_US&geoloc=US&userstate=Loggedout&eSite=CATCorp
+            - listitem [ref=f7e604]:
+              - link "Warranty & Returns" [ref=f7e605] [cursor=pointer]:
+                - /url: /en/catcorp/warranty-and-returns
+            - listitem [ref=f7e606]:
+              - link "Order Status Inquiry" [ref=f7e607] [cursor=pointer]:
+                - /url: /en/catcorp/orders/inquiry/
+        - generic [ref=f7e609]:
+          - generic "My Account" [ref=f7e610]:
+            - heading "My Account" [level=6] [ref=f7e611]
+          - list [ref=f7e612]:
+            - listitem [ref=f7e613]:
+              - link "Shopping Cart" [ref=f7e614] [cursor=pointer]:
+                - /url: /en/catcorp/cart
+        - generic [ref=f7e616]:
+          - generic "Cat Social" [ref=f7e617]:
+            - heading "Cat Social" [level=6] [ref=f7e618]
+          - list [ref=f7e619]:
+            - listitem [ref=f7e620]:
+              - link "Facebook" [ref=f7e621] [cursor=pointer]:
+                - /url: https://www.facebook.com/caterpillarinc
+            - listitem [ref=f7e626]:
+              - link "LinkedIn" [ref=f7e627] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/caterpillar-inc
+            - listitem [ref=f7e632]:
+              - link "YouTube" [ref=f7e633] [cursor=pointer]:
+                - /url: https://www.youtube.com/CatProducts
+            - listitem [ref=f7e638]:
+              - link "Twitter" [ref=f7e639] [cursor=pointer]:
+                - /url: https://twitter.com/CaterpillarInc
+                - generic [ref=f7e640]: X
+            - listitem [ref=f7e644]:
+              - link "Instagram" [ref=f7e645] [cursor=pointer]:
+                - /url: https://instagram.com/caterpillarinc
+            - listitem [ref=f7e650]:
+              - link "All Social Media Accounts" [ref=f7e651] [cursor=pointer]:
+                - /url: https://www.cat.com/en_US/social.html
+      - generic [ref=f7e654]:
+        - link "United States English" [ref=f7e655] [cursor=pointer]:
+          - /url: /en/catcorp
+        - link "العربية" [ref=f7e656] [cursor=pointer]:
+          - /url: /ar/catcorp
+        - link "বাংলা" [ref=f7e657] [cursor=pointer]:
+          - /url: /bn/catcorp
+        - link "Български" [ref=f7e658] [cursor=pointer]:
+          - /url: /bg/catcorp
+        - link "简体中文" [ref=f7e659] [cursor=pointer]:
+          - /url: /zh-CN/catcorp
+        - link "繁體中文" [ref=f7e660] [cursor=pointer]:
+          - /url: /zh-TW/catcorp
+        - link "Čeština" [ref=f7e661] [cursor=pointer]:
+          - /url: /cs/catcorp
+        - link "Dansk" [ref=f7e662] [cursor=pointer]:
+          - /url: /da/catcorp
+        - link "Nederlands" [ref=f7e663] [cursor=pointer]:
+          - /url: /nl/catcorp
+        - link "Suomi" [ref=f7e664] [cursor=pointer]:
+          - /url: /fi/catcorp
+        - link "Français" [ref=f7e665] [cursor=pointer]:
+          - /url: /fr/catcorp
+        - link "Deutsch" [ref=f7e666] [cursor=pointer]:
+          - /url: /de/catcorp
+        - link "Ελληνικά" [ref=f7e667] [cursor=pointer]:
+          - /url: /el/catcorp
+        - link "עברית" [ref=f7e668] [cursor=pointer]:
+          - /url: /he/catcorp
+        - link "हिन्दी" [ref=f7e669] [cursor=pointer]:
+          - /url: /hi/catcorp
+        - link "Bahasa Indonesia" [ref=f7e670] [cursor=pointer]:
+          - /url: /in/catcorp
+        - link "Italiano" [ref=f7e671] [cursor=pointer]:
+          - /url: /it/catcorp
+        - link "日本語" [ref=f7e672] [cursor=pointer]:
+          - /url: /ja/catcorp
+        - link "ಕನ್ನಡ" [ref=f7e673] [cursor=pointer]:
+          - /url: /kn/catcorp
+        - link "한국어" [ref=f7e674] [cursor=pointer]:
+          - /url: /ko/catcorp
+        - link "Norsk" [ref=f7e675] [cursor=pointer]:
+          - /url: /nb/catcorp
+        - link "Polski" [ref=f7e676] [cursor=pointer]:
+          - /url: /pl/catcorp
+        - link "Português do Brasil" [ref=f7e677] [cursor=pointer]:
+          - /url: /pt/catcorp
+        - link "Română" [ref=f7e678] [cursor=pointer]:
+          - /url: /ro/catcorp
+        - link "русский" [ref=f7e679] [cursor=pointer]:
+          - /url: /ru/catcorp
+        - link "Español (Latino)" [ref=f7e680] [cursor=pointer]:
+          - /url: /es/catcorp
+        - link "Svenska" [ref=f7e681] [cursor=pointer]:
+          - /url: /sv/catcorp
+        - link "தமிழ்" [ref=f7e682] [cursor=pointer]:
+          - /url: /ta/catcorp
+        - link "తెలుగు" [ref=f7e683] [cursor=pointer]:
+          - /url: /te/catcorp
+        - link "ไทย" [ref=f7e684] [cursor=pointer]:
+          - /url: /th/catcorp
+        - link "Türkçe" [ref=f7e685] [cursor=pointer]:
+          - /url: /tr/catcorp
+        - link "Українська мова" [ref=f7e686] [cursor=pointer]:
+          - /url: /uk/catcorp
+        - link "Tiếng Việt" [ref=f7e687] [cursor=pointer]:
+          - /url: /vi/catcorp
+      - generic [ref=f7e689]:
+        - generic [ref=f7e690]:
+          - link "About Cat" [ref=f7e691] [cursor=pointer]:
+            - /url: https://www.cat.com/en_US/company.html
+          - link "Site Map" [ref=f7e693] [cursor=pointer]:
+            - /url: /en/catcorp/site-map
+          - link "Cookie Settings" [ref=f7e695] [cursor=pointer]:
+            - /url: "#"
+          - link "Do Not Sell or Share My Personal Information" [ref=f7e696] [cursor=pointer]:
+            - /url: https://privacyportal.onetrust.com/webform/ec73b9a1-eecd-48d1-a789-fa7761e54a29/cf3dfa36-1b53-4ec9-8dfc-e84988613fa1
+          - link "Legal Terms" [ref=f7e698] [cursor=pointer]:
+            - /url: /en/catcorp/legal/legal-terms
+          - link "My Marketing Preferences" [ref=f7e700] [cursor=pointer]:
+            - /url: https://privacyportal.onetrust.com/ui/#/preferences/multipage/login/60104e41-6ba2-4141-9154-90f8532cbdb9
+          - link "Privacy" [ref=f7e702] [cursor=pointer]:
+            - /url: /en/catcorp/legal/privacy
+        - paragraph [ref=f7e704]: Caterpillar© 2026 All Rights Reserved
